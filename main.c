@@ -22,7 +22,6 @@ int main(void) {
     int* min = &a[0];
     int* max = &a[0];
 
-    int *tmp = min;
     for (int i = 0; i < N; i++) {
         if (a[i] < *min) min = a + i;
         if (a[i] > *max) max = a + i;
